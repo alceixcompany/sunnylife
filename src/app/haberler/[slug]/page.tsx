@@ -151,7 +151,7 @@ const HaberDetay = () => {
         eyebrow="Blog Yazısı"
         title={<>{haber?.title}</>}
         description={haber?.subtitle || 'Sunny Life Solarium & Beauty editöryel notları ve bakım dünyasından güncel içerikler.'}
-        image={haber?.imageUrl || '/banner/sunnylife-solarium-studio.webp'}
+        image={haber?.imageUrl || '/resimler/genosys-cilt-bakim-urunleri.webp'}
         imageAlt="Sunny Life Solarium & Beauty haber detayı"
         heightClassName="min-h-[320px] py-16 sm:min-h-[380px] sm:py-20"
       />

@@ -120,7 +120,7 @@ const ServiceAreasPage = () => {
         eyebrow="Hizmet Alanlarımız"
         title={<>Hizmet<br />bölgelerimiz</>}
         description="İstanbul’un farklı bölgelerinde güzellik ve bakım hizmetlerimizi sizinle daha güçlü bir deneyim standardıyla buluşturuyoruz."
-        image="/banner/sunnylife-solarium-hero.webp"
+        image="/resimler/sunny-life-dis-cephe.webp"
         imageAlt="Sunny Life Solarium & Beauty hizmet bölgeleri"
         align="center"
       />
@@ -161,7 +161,7 @@ const ServiceAreasPage = () => {
                 >
                   <div className="relative h-48 overflow-hidden">
                     <Image
-                      src={area.imageUrl || '/img/sayfa1.jpg'}
+                      src={area.imageUrl || '/resimler/sunny-life-dis-cephe.webp'}
                       alt={area.name}
                       fill
                       className="object-cover group-hover:scale-110 transition-transform duration-300"

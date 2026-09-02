@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
           >
             <div className="absolute left-0 top-10 h-[360px] w-[72%] overflow-hidden rounded-[34px] bg-white shadow-[0_24px_70px_rgba(95,89,108,0.12)]">
               <Image
-                src="/banner/sunnylife-solarium-studio.webp"
+                src="/resimler/sunny-life-yatay-solaryum.jpeg"
                 alt="Sunny Life modern solaryum stüdyosu"
                 fill
                 className="object-cover object-center"
@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
             <div className="absolute bottom-0 right-0 h-[300px] w-[58%] overflow-hidden rounded-[30px] border border-white/60 bg-[#f1d7b7] p-4 shadow-[0_24px_70px_rgba(223,167,69,0.16)]">
               <div className="relative h-full overflow-hidden rounded-[24px]">
                 <Image
-                  src="/banner/sunnylife-solarium-hero.webp"
+                  src="/resimler/sunny-life-dikey-solaryum.jpeg"
                   alt="Sunny Life sıcak bronzluk deneyimi"
                   fill
                   className="object-cover"

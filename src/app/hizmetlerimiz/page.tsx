@@ -20,7 +20,7 @@ const services = [
     description:
       'Ten tipiniz, önceki bronzlaşma deneyiminiz ve hedefiniz değerlendirilerek size özel bir seans akışı oluşturulur.',
     highlights: ['Ten tipi değerlendirmesi', 'Kademeli süre planı', 'Hijyenik seans hazırlığı'],
-    image: '/banner/sunnylife-solarium-studio.webp',
+    image: '/resimler/sunny-life-yatay-solaryum.jpeg',
     href: '/hizmetlerimiz/solaryum',
     icon: FiSun,
   },
@@ -30,7 +30,7 @@ const services = [
     description:
       'Cildin ihtiyacı değerlendirilerek temizlik, bakım ve nemlendirme adımları kişiye özel bir akışta uygulanır.',
     highlights: ['Cilt ihtiyacı değerlendirmesi', 'Özenli bakım adımları', 'Kişisel uygulama'],
-    image: '/hizmetler/sunnylife-cilt-nem-bakimi.webp',
+    image: '/resimler/hydrafacial-cilt-bakimi.webp',
     href: '/hizmetlerimiz/cilt-bakimi',
     icon: FiDroplet,
   },
@@ -40,7 +40,7 @@ const services = [
     description:
       'Uygulama bölgesi ve kıl yapısı değerlendirilerek seans akışı ve ziyaret aralığı kişiye özel belirlenir.',
     highlights: ['Bölge değerlendirmesi', 'Kişisel seans planı', 'Düzenli takip'],
-    image: '/hizmetler/lazer-epilasyon.png',
+    image: '/resimler/lazer-epilasyon-uygulamasi.webp',
     href: '/hizmetlerimiz/lazer-epilasyon',
     icon: FiZap,
   },
@@ -50,7 +50,7 @@ const services = [
     description:
       'Ritmik titreşimli başlıklarla uygulanan cihaz destekli masaj, vücut bakımını ve pürüzsüz görünümü destekler.',
     highlights: ['Ritmik mekanik masaj', 'Bölgeye özel uygulama', 'Kişisel yoğunluk'],
-    image: '/hizmetler/masaj.png',
+    image: '/resimler/g5-g8-masaj-uygulamasi.webp',
     href: '/iletisim?service=g5-g8-masaj',
     icon: FiActivity,
   },
@@ -60,7 +60,7 @@ const services = [
     description:
       'Hedeflenen bölgeye göre planlanan cihazlı uygulama, vücut konturunu ve daha sıkı görünümü desteklemeyi amaçlar.',
     highlights: ['Hedef bölge planı', 'Cihazlı uygulama', 'Seans takibi'],
-    image: '/hizmetler/bolgesel-zayiflama.png',
+    image: '/resimler/rasping-vucut-bakimi.webp',
     href: '/iletisim?service=rasping',
     icon: FiTarget,
   },
@@ -70,7 +70,7 @@ const services = [
     description:
       'Mikro ve galvanik akım teknolojilerinin kullanıldığı uygulama, bölgesel toparlanma ve sıkı görünümü destekler.',
     highlights: ['Kişisel bölge seçimi', 'Kontrollü akım uygulaması', 'Planlı bakım süreci'],
-    image: '/hizmetler/vucut-bakimi.png',
+    image: '/resimler/dipotens-vucut-bakimi.webp',
     href: '/iletisim?service=dipotens',
     icon: FiShield,
   },
@@ -101,7 +101,7 @@ export default function ServicesPage() {
         eyebrow="Sunny Life Hizmetleri"
         title={<>Işığınıza eşlik<br />eden ritüeller</>}
         description="Solaryum, cilt bakımı, epilasyon ve cihaz destekli vücut uygulamalarını kişiye özel, sakin ve özenli bir akışla planlıyoruz."
-        image="/hizmetler/sunnylife-dikey-solaryum.webp"
+        image="/resimler/sunny-life-dikey-solaryum.jpeg"
         imageAlt="Sunny Life dikey solaryum ve beauty hizmetleri"
       />
 

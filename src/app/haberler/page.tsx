@@ -123,7 +123,7 @@ const NewsPage = () => {
         eyebrow="Sunny Life Rehberi"
         title={<>Solaryum<br />& bakım notları</>}
         description="İlk seans hazırlığı, cihaz seçenekleri ve bronzluk sonrası bakım hakkında sade, güvenli ve uygulanabilir içerikleri keşfedin."
-        image="/haberler/ilk-solaryum-seansi.webp"
+        image="/resimler/genosys-cilt-bakim-urunleri.webp"
         imageAlt="Sunny Life Solarium & Beauty haberler"
       />
 

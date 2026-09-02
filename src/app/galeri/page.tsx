@@ -119,7 +119,7 @@ const GaleriPage = () => {
         eyebrow="Sunny Life Koleksiyonu"
         title={<>Solaryum<br />& beauty galeri</>}
         description="Modern solaryum alanlarımızı, seans hazırlığını ve tamamlayıcı beauty ritüellerini sıcak bir görsel seçki içinde keşfedin."
-        image="/banner/sunnylife-solarium-studio.webp"
+        image="/resimler/sunny-life-yatay-solaryum.jpeg"
         imageAlt="Sunny Life Solarium & Beauty galeri"
       />
 

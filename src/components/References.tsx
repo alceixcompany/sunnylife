@@ -1,6 +1,5 @@
 'use client'
 import React, { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FiCheckCircle, FiMapPin, FiStar } from 'react-icons/fi';
 
@@ -13,7 +12,6 @@ const reviews = [
     time: '2 hafta önce',
     comment:
       'İlk seans öncesinde süreç çok net anlatıldı. Ortam sıcak, düzenli ve tertemizdi; kendimi rahat hissettim.',
-    image: '/img/ayşe.avif',
   },
   {
     name: 'Merve A.',
@@ -23,7 +21,6 @@ const reviews = [
     time: '1 ay önce',
     comment:
       'Tenime uygun süreyi birlikte belirledik. Kademeli ilerlemeleri ve her ziyaret öncesi yeniden bilgi vermeleri güven verdi.',
-    image: '/img/banu.avif',
   },
   {
     name: 'Seda T.',
@@ -33,7 +30,6 @@ const reviews = [
     time: '3 hafta önce',
     comment:
       'Hedeflediğim doğal tonu anlattım, bana uygun bir seans planı hazırladılar. İlgili ve özenli bir ekip.',
-    image: '/img/ahmet.avif',
   },
   {
     name: 'Gizem Y.',
@@ -43,7 +39,6 @@ const reviews = [
     time: '5 gün önce',
     comment:
       'Bakım sonrası hem fiziksel olarak rahatladım hem de kendimi çok iyi hissettim. Ortam tertemiz ve ekip çok ilgiliydi.',
-    image: '/img/ali.avif',
   },
 ] as const;
 
@@ -196,13 +191,12 @@ const References = () => {
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex items-center gap-3">
-                    <Image
-                      src={review.image}
-                      alt={review.name}
-                      width={52}
-                      height={52}
-                      className="h-[52px] w-[52px] rounded-full object-cover"
-                    />
+                    <div
+                      aria-hidden="true"
+                      className="flex h-[52px] w-[52px] items-center justify-center rounded-full bg-[rgba(223,167,69,0.14)] font-serif text-lg text-[var(--lale-gold)]"
+                    >
+                      {review.name.charAt(0)}
+                    </div>
                     <div>
                       <h4 className="text-base font-semibold text-[var(--dream-dark)]">{review.name}</h4>
                       <div className="mt-1 flex items-center gap-2 text-xs text-[var(--dream-text)]">

@@ -52,7 +52,7 @@ export default function AdminLogin() {
         >
           <section className="relative hidden min-h-[720px] overflow-hidden lg:block">
             <Image
-              src="/banner/sunnylife-solarium-studio.webp"
+              src="/resimler/sunny-life-yatay-solaryum.jpeg"
               alt="Sunny Life Solarium yönetim paneli"
               fill
               priority

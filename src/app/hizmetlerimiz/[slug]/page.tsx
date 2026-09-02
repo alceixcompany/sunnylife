@@ -9,7 +9,7 @@ const servicesData = {
     title: 'Solaryum',
     icon: '☀️',
     description: 'Ten tipinize ve bronzluk hedefinize göre planlanan kontrollü solaryum deneyimi.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/sunny-life-yatay-solaryum.jpeg',
     features: [
       'Ten tipi değerlendirmesi',
       'Kademeli seans süresi',
@@ -35,8 +35,8 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/banner/sunnylife-solarium-hero.webp'
+      '/resimler/sunny-life-yatay-solaryum.jpeg',
+      '/resimler/sunny-life-dikey-solaryum.jpeg'
     ]
   },
   'cilt-bakimi': {
@@ -44,7 +44,7 @@ const servicesData = {
     title: 'Cilt Bakımı',
     icon: '✨',
     description: 'Cildinizin ihtiyacına uygun arındırma, nemlendirme ve canlandırma uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/hydrafacial-cilt-bakimi.webp',
     features: [
       'Kişisel cilt analizi',
       'Derin temizlik uygulaması',
@@ -70,9 +70,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/hydrafacial-cilt-bakimi.webp',
+      '/resimler/genosys-cilt-bakim-urunleri.webp',
+      '/resimler/genosys-profesyonel-cilt-bakimi.jpeg'
     ]
   },
   'lazer-epilasyon': {
@@ -80,7 +80,7 @@ const servicesData = {
     title: 'Lazer Epilasyon',
     icon: '🌿',
     description: 'Modern cihazlarla planlanan, konforlu ve düzenli takipli lazer epilasyon seansları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/lazer-epilasyon-uygulamasi.webp',
     features: [
       'Bölgesel uygulama seçenekleri',
       'Kişiye uygun seans planlaması',
@@ -106,9 +106,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/lazer-epilasyon-uygulamasi.webp',
+      '/resimler/sunny-life-dis-cephe.webp',
+      '/resimler/sunny-life-ekibi.jpeg'
     ]
   },
   'kas-ve-kirpik': {
@@ -116,7 +116,7 @@ const servicesData = {
     title: 'Kaş ve Kirpik',
     icon: '👁️',
     description: 'Yüzünüze uyumlu, doğal ama belirgin sonuç veren kaş ve kirpik uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/kas-kirpik-uygulamasi.webp',
     features: [
       'Kaş tasarımı',
       'Kaş şekillendirme',
@@ -142,9 +142,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/kas-kirpik-uygulamasi.webp',
+      '/resimler/genosys-cilt-bakim-urunleri.webp',
+      '/resimler/sunny-life-ekibi.jpeg'
     ]
   },
   'bolgesel-zayiflama': {
@@ -152,7 +152,7 @@ const servicesData = {
     title: 'Bölgesel Zayıflama',
     icon: '✨',
     description: 'Bölgesel incelme hedefinize uygun planlanan profesyonel seanslar.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/rasping-vucut-bakimi.webp',
     features: [
       'Bölgesel değerlendirme',
       'Kişisel seans planlaması',
@@ -178,9 +178,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/rasping-vucut-bakimi.webp',
+      '/resimler/dipotens-vucut-bakimi.webp',
+      '/resimler/sunny-life-dis-cephe.webp'
     ]
   },
   'ipek-kirpik': {
@@ -188,7 +188,7 @@ const servicesData = {
     title: 'İpek Kirpik',
     icon: '👁️',
     description: 'Bakışları belirginleştiren, zarif ve doğal görünümlü ipek kirpik uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/ipek-kirpik-uygulamasi.webp',
     features: [
       'Göz yapısına uygun planlama',
       'Doğal görünüm odağı',
@@ -214,9 +214,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/ipek-kirpik-uygulamasi.webp',
+      '/resimler/genosys-profesyonel-cilt-bakimi.jpeg',
+      '/resimler/sunny-life-ekibi.jpeg'
     ]
   },
   'protez-tirnak': {
@@ -224,7 +224,7 @@ const servicesData = {
     title: 'Protez Tırnak',
     icon: '💅',
     description: 'Şık, düzenli ve estetik bir görünüm sunan protez tırnak uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/protez-tirnak-uygulamasi.webp',
     features: [
       'El yapısına uygun form',
       'Uzunluk ve şekil seçimi',
@@ -250,9 +250,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/protez-tirnak-uygulamasi.webp',
+      '/resimler/sunny-life-ekibi.jpeg',
+      '/resimler/sunny-life-dis-cephe.webp'
     ]
   },
   'leke-bakimi': {
@@ -260,7 +260,7 @@ const servicesData = {
     title: 'Leke Bakımı',
     icon: '🌿',
     description: 'Cilt tonunu dengelemeye destek olan profesyonel leke bakım uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/genosys-profesyonel-cilt-bakimi.jpeg',
     features: [
       'Cilt tonu analizi',
       'Leke görünümüne uygun bakım',
@@ -286,9 +286,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/genosys-profesyonel-cilt-bakimi.jpeg',
+      '/resimler/hydrafacial-cilt-bakimi.webp',
+      '/resimler/genosys-cilt-bakim-urunleri.webp'
     ]
   },
   'kalici-makyaj': {
@@ -296,7 +296,7 @@ const servicesData = {
     title: 'Kalıcı Makyaj',
     icon: '✨',
     description: 'Yüz hatlarını doğal biçimde belirginleştiren kalıcı makyaj uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/kalici-makyaj-uygulamasi.webp',
     features: [
       'Kişisel tasarım planı',
       'Doğal görünüm odağı',
@@ -322,9 +322,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/kalici-makyaj-uygulamasi.webp',
+      '/resimler/genosys-cilt-bakim-urunleri.webp',
+      '/resimler/sunny-life-ekibi.jpeg'
     ]
   },
   'hydrafacial': {
@@ -332,7 +332,7 @@ const servicesData = {
     title: 'Hydrafacial',
     icon: '💧',
     description: 'Arındırma, nemlendirme ve canlandırmayı bir araya getiren hydrafacial bakımı.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/hydrafacial-cilt-bakimi.webp',
     features: [
       'Derin temizlik desteği',
       'Yoğun nem bakımı',
@@ -358,9 +358,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/hydrafacial-cilt-bakimi.webp',
+      '/resimler/genosys-cilt-bakim-urunleri.webp',
+      '/resimler/genosys-profesyonel-cilt-bakimi.jpeg'
     ]
   },
   'akne-bakimi': {
@@ -368,7 +368,7 @@ const servicesData = {
     title: 'Akne Bakımı',
     icon: '🌿',
     description: 'Akneye eğilimli ciltler için dengeleyici ve arındırıcı profesyonel bakım uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/resimler/hydrafacial-cilt-bakimi.webp',
     features: [
       'Akneye uygun cilt analizi',
       'Arındırıcı bakım adımları',
@@ -394,9 +394,9 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
+      '/resimler/hydrafacial-cilt-bakimi.webp',
+      '/resimler/genosys-profesyonel-cilt-bakimi.jpeg',
+      '/resimler/genosys-cilt-bakim-urunleri.webp'
     ]
   }
 };

@@ -61,7 +61,7 @@ export default function AboutPage() {
         eyebrow="Sunny Life Hakkında"
         title={<>Işığınıza özenle<br />eşlik ediyoruz</>}
         description="Anadolu Hisarı’nda solaryum deneyimini kişisel planlama, modern cihazlar ve sakin bir atmosferle buluşturuyoruz."
-        image="/banner/sunnylife-solarium-studio.webp"
+        image="/resimler/sunny-life-ekibi-net.webp"
         imageAlt="Sunny Life Solarium & Beauty salonu"
       />
 
@@ -72,7 +72,7 @@ export default function AboutPage() {
           <div className="relative mx-auto w-full max-w-[590px] pb-16 pr-0 sm:pr-16 lg:mx-0">
             <div className="relative aspect-[4/5] overflow-hidden rounded-[34px] shadow-[0_28px_80px_rgba(55,39,26,0.18)]">
               <Image
-                src="/banner/sunnylife-solarium-hero.webp"
+                src="/resimler/sunny-life-yatay-solaryum.jpeg"
                 alt="Sunny Life modern solaryum cihazı"
                 fill
                 className="object-cover"
@@ -83,7 +83,7 @@ export default function AboutPage() {
             <div className="absolute bottom-0 right-0 hidden w-[58%] overflow-hidden rounded-[28px] border-[10px] border-[var(--lale-cream)] shadow-[0_20px_55px_rgba(55,39,26,0.18)] sm:block">
               <div className="relative aspect-[4/3]">
                 <Image
-                  src="/hizmetler/sunnylife-dikey-solaryum.webp"
+                  src="/resimler/sunny-life-dikey-solaryum.jpeg"
                   alt="Sunny Life dikey solaryum deneyimi"
                   fill
                   className="object-cover"

@@ -44,7 +44,7 @@ const PrivacyPolicyPage = () => {
         eyebrow="Gizlilik & Güvenlik"
         title={<>Kişisel Verilerin<br />Korunması</>}
         description="Sunny Life Solarium & Beauty olarak kişisel verilerinizin gizliliğini ve güvenliğini en üst seviyede tutuyoruz."
-        image="/banner/sunnylife-solarium-studio.webp"
+        image="/resimler/sunny-life-dis-cephe.webp"
         imageAlt="Sunny Life Solarium & Beauty Gizlilik Politikası"
         heightClassName="min-h-[380px] py-20 sm:min-h-[440px] sm:py-24"
       />

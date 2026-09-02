@@ -46,11 +46,11 @@ const Hero = () => {
           className="relative min-h-screen w-full overflow-hidden bg-[var(--brand-panel-deep)]"
         >
           <Image
-            src="/banner/sunnylife-solarium-studio.webp"
+            src="/resimler/sunny-life-yatay-solaryum.jpeg"
             alt="Sunny Life Solarium & Beauty modern solaryum stüdyosu"
             fill
             priority
-            className="object-cover object-[62%_center]"
+            className="object-cover object-center"
             sizes="(max-width: 1280px) 100vw, 1280px"
           />
 

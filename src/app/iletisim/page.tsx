@@ -115,8 +115,8 @@ export default function ContactPage() {
         eyebrow="Sunny Life İletişim"
         title={<>Işığınız için<br />buluşalım</>}
         description="Randevu planlamak, size uygun seans hakkında bilgi almak veya salonumuza ulaşmak için dilediğiniz kanaldan bize yazın."
-        image="/galeri/solaryum-hazirlik.webp"
-        imageAlt="Sunny Life Solarium & Beauty iletişim"
+        image="/resimler/sunny-life-dikey-solaryum.jpeg"
+        imageAlt="Sunny Life dikey solaryum cihazı"
       />
 
       <section className="relative overflow-hidden bg-[var(--lale-cream)] py-24 sm:py-28">

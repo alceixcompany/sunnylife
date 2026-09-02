@@ -28,7 +28,7 @@ const localBusinessSchema = {
   '@type': 'BeautySalon',
   name: 'Sunny Life Solarium & Beauty',
   url: 'https://sunnylifesolarium.com',
-  image: 'https://sunnylifesolarium.com/banner/sunnylife-solarium-hero.webp',
+  image: 'https://sunnylifesolarium.com/resimler/sunny-life-dis-cephe.webp',
   telephone: '+90 538 503 87 30',
   description: "Anadolu Hisarı'nda solaryum, cilt bakımı, epilasyon ve cihaz destekli vücut bakımı hizmetleri sunan güzellik merkezi.",
   address: {
@@ -94,9 +94,9 @@ export const metadata: Metadata = {
     url: "https://sunnylifesolarium.com",
     images: [
       {
-        url: '/banner/sunnylife-solarium-hero.webp',
-        width: 1200,
-        height: 630,
+        url: '/resimler/sunny-life-dis-cephe.webp',
+        width: 969,
+        height: 1622,
         alt: 'Sunny Life Solarium & Beauty Beykoz solaryum deneyimi'
       }
     ]
@@ -105,7 +105,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sunny Life Solarium & Beauty",
     description: "Anadolu Hisarı'nda solaryum ve güzellik bakımları.",
-    images: ['/banner/sunnylife-solarium-hero.webp']
+    images: ['/resimler/sunny-life-dis-cephe.webp']
   },
 };
 
